@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandy's Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8b0000;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2em
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            color: #8b0000;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mandy's Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#research">Research</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Mandy. I live in Kelseyville, also known as K’ville or Konocti. I work for an upcoming medium from Australia called “The Real Medium Matilda” as a researcher. I'm passionate about womanism, liberal values, and I'm dedicated to uncovering the truth behind predictions. I also work part-time at Oscar's Place Donkey Sanctuary in Hopland, CA.</p>
+        </section>
+        <section id="research" class="section">
+            <h2>Research</h2>
+            <p>As a researcher, I analyze the success rate of predictions made by “The Real Medium Matilda.” My work involves extensive data analysis and ensuring accuracy in the results. I aim to bring credibility and transparency to the field of mediumship.</p>
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to my blog! Here, I share my thoughts on various topics, including my research work, personal experiences, and insights into womanism and liberal values. Stay tuned for more updates!</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:mandy@example.com">mandy@example.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mandy's Personal Webpage</p>
+    </footer>
+</body>
+</html>
